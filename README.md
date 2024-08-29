@@ -3,17 +3,25 @@
 Welcome to FlickFinder, the ultimate destination for movie lovers! Whether you're in the mood for an action-packed blockbuster, a heartwarming drama, or a laugh-out-loud comedy, we've got you covered.
 This platform allows users to discover movies based on their favorite genres and ranks them according to ratings sourced from Letterboxd. Whether you're in the mood for action-packed thrillers, heartwarming dramas, or laugh-out-loud comedies, our site helps you find the perfect movie for any occasion.
 
-**Features**:
-Genre-Based Recommendations: Users can select their favorite genres, and the site will recommend movies that fall within those categories.
-Rating Sorting: Movies are sorted by their ratings, which are sourced from Letterboxd, ensuring that you get the best recommendations first.
-User-Friendly Interface: An intuitive, easy-to-navigate interface that lets you explore movie recommendations effortlessly.
-Detailed Information: Each movie comes with detailed information, including genre, rating, and other relevant details to help you make an informed choice.
+**## Features**:
+### Genre-Based Recommendations: 
+Users can select their favorite genres, and the site will recommend movies that fall within those categories.
+### Rating Sorting: 
+Movies are sorted by their ratings, which are sourced from Letterboxd, ensuring that you get the best recommendations first.
+### User-Friendly Interface:
+An intuitive, easy-to-navigate interface that lets you explore movie recommendations effortlessly.
+### Detailed Information: 
+Each movie comes with detailed information, including genre, rating, and other relevant details to help you make an informed choice.
 
-**Tech Stack**:
-Backend: Node.js with Express
-Database: MongoDB for storing movie data
-Frontend: HTML, CSS, JavaScript, EJS templating engine
-External Data: Letterboxd for movie ratings
+**## Tech Stack**:
+### Backend: 
+Node.js with Express
+### Database: 
+MongoDB for storing movie data
+### Frontend:
+HTML, CSS, JavaScript, EJS templating engine
+### External Data: 
+Letterboxd for movie ratings
 
 **Usage**:
 Home Page: Start by selecting your preferred genres from the homepage.
