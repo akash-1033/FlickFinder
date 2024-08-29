@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <link rel="stylesheet" href="/resultStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Movie Recommendations</h1>
+        </header>
+        <main>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (const item of data) { %>
+                            <tr>
+                                <td><%= item.Name %></td>
+                                <td class="rating" data-rating="<%= item.Rating %>"></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <button id="prev-btn" onclick="prevPage()" class="pagination-btn">
+                    <i class="fa fa-chevron-left"></i> Previous
+                </button>
+                <span id="page-indicator">Page 1</span>
+                <button id="next-btn" onclick="nextPage()" class="pagination-btn">
+                    Next <i class="fa fa-chevron-right"></i>
+                </button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Movie Ratings Inc.</p>
+        </footer>
+    </div>
+    <script src="/resultScript.js">
+    </script>
+</body>
+</html>
