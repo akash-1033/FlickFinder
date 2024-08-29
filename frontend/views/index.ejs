@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Genres</title>
+    <link rel="stylesheet" href="/homeStyle.css"/>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Select Your Favorite Movie Genres</h1>
+      <form id="genresForm">
+        <div class="genre-checkbox">
+          <input type="checkbox" id="action" name="genre" value="Action" />
+          <label for="action">Action</label>
+        </div>
+        <div class="genre-checkbox">
+          <input type="checkbox" id="comedy" name="genre" value="Comedy" />
+          <label for="comedy">Comedy</label>
+        </div>
+        <div class="genre-checkbox">
+          <input type="checkbox" id="drama" name="genre" value="Drama" />
+          <label for="drama">Drama</label>
+        </div>
+        <div class="genre-checkbox">
+          <input type="checkbox" id="horror" name="genre" value="Horror" />
+          <label for="horror">Horror</label>
+        </div>
+        <div class="genre-checkbox">
+          <input type="checkbox" id="sci-fi" name="genre" value="Sci-Fi" />
+          <label for="sci-fi">Sci-Fi</label>
+        </div>
+        <div class="genre-checkbox">
+          <input type="checkbox" id="romance" name="genre" value="Romance" />
+          <label for="romance">Romance</label>
+        </div>
+        <div class="submit-btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="/homeScript.js"></script>
+  </body>
+</html>
