@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  /* Container */
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    position: relative; /* For absolute positioning of elements inside */
+    transition: transform 0.3s ease;
+  }
+
+  .container:hover {
+    transform: translateY(-10px);
+  }
+
+  /* Heading */
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 25px;
+  }
+
+  /* Checkbox Style */
+  .genre-checkbox {
+    margin-bottom: 20px;
+    position: relative; /* Necessary for absolute positioning of the labels */
+    padding-left: 30px;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  label {
+    font-size: 18px;
+    padding-left: 5px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+
+  label:hover {
+    color: #3498db;
+  }
+
+  /* Custom Checkbox */
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    background: none;
+    margin-right: 10px;
+    border: 2px solid #3498db;
+    border-radius: 3px;
+    outline: none;
+    appearance: none; /* Removes default checkbox */
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: #3498db;
+    border-color: #3498db;
+  }
+
+  input[type="checkbox"]:checked::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    transform: rotate(45deg);
+  }
+
+  /* Submit Button */
+  .submit-btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px);
+  }
