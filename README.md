@@ -25,7 +25,10 @@ This platform allows users to discover movies based on their favorite genres and
 3. **Results**: You'll be redirected to a results page where you can browse through a list of recommended movies sorted by their ratings.
 4. **Enjoy**: Click on any movie to learn more about it or simply pick one to watch!
 
+## UI Preview
+
 ![Screenshot 2024-08-29 225329](https://github.com/user-attachments/assets/172fba58-e259-4c3a-b6cf-816cd7fca242)
+
 ![Screenshot 2024-08-29 225355](https://github.com/user-attachments/assets/0e62d7c9-4a5a-4f21-b936-c44c9e4610e0)
 
 ## Creators
