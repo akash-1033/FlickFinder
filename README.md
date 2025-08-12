@@ -34,6 +34,6 @@ This platform allows users to discover movies based on their favorite genres and
 ## Creators
 
 **Abhinav & Akash**
-**Special Thanks:**  
+## Special Thanks: 
 A heartfelt thanks to **Aditya** for his dedication, guidance, and problem-solving skills, which were invaluable in building this project. Your support truly made a difference.
 
